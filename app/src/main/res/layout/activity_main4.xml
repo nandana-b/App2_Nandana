@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggornav"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="How To Use :\n\n1. Enter your task on the 'Enter To Do Item' space and click the 'Add' button. Your task will be added to the list.\n\n2. After completing the task click on the checkbox to crossout the task or click the delete button to delete the selected task. Incase it is a reccuring task without deleting, just uncheck the check box.\n\n3. The buttons at the bottom navigation takes you to the respective pages and you can go back to home page by pressing the 'back' button on your phone. \n\n\n\t\t\t\t\t\t\t\tHappy List Making!"
+        android:textSize="18sp"
+        android:textColor="#3E750F"
+
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

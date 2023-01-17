@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggornav"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textBusiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="!! ABOUT US !! \n\nThe To-Do List Maker is intended to assist clients in managing their daily schedules. It simplifies the \nprocess of organizing and tracking \ntasks by allowing clients to prioritize their work, set due dates \nand reminders, track progress on \nindividual tasks, assign tasks to others, and create a recurring to-do list. The To-Do List Maker also makes it easier for these clients to manage multiple tasks simultaneously."
+        android:textSize="20sp"
+        android:textColor="#3E750F"
+        android:textStyle="italic"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
